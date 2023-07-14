@@ -1,0 +1,38 @@
+<DOCTYPE>
+    <html>
+    <body>
+    <div class="form" style="border: 3px solid blue; margin: 80px 380px 380px; box-shadow: 5px 5px 5px;">
+    <center>
+        <h2>Student Course Regestration Form</h2>
+        <form action="process regestration.php"method="POST">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentname"required><br><br>
+        
+        <label for="admissionNumber">Admission Number:</label>
+        <input type="text" id="admissionNumber" name="admissionNumber"required><br><br>
+         
+        <label for="telephoneNumber">TelephoneNumber:</label>
+        <input type="tel"id="telephoneNumber" required><br><br>
+        
+        <label for="dateofBirth">Date of Birth:</lable>
+        <input type="date"id="dateofBirth"required><br><br>
+        
+        <label for="course"name="course">Course:</label>
+        <select id="course"name="course"required>
+        <option value="CBIT">CBIT</option>
+        <option value="CIT">CIT</option></select><br><br>
+        
+        <label for="gender">Gender:</lable>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio"id="female"name="gender"value="female"required>
+        <label for="female">Female</label><br><br>
+        
+        <input style=" padding: 6px; border-radius: 5px; border: 2px; border: 2px solid blue;" type="submit"value="submit">
+             </form>
+    </center>
+    </div>
+    
+    </body>
+    </html>
+    
